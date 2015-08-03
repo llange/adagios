@@ -26,6 +26,7 @@ Requires: httpd
 Requires: mod_wsgi
 Requires: sudo
 Requires: python-simplejson
+Requires: python-setuptools
 
 %if 0%{?rhel} == 6
 Requires: python-django15
